@@ -1,0 +1,32 @@
+{
+  "connection": "default",
+  "collectionName": "englishrooms",
+  "info": {
+    "name": "enroom",
+    "description": "Rooms in english in El Hotel"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "beds": {
+      "type": "integer"
+    },
+    "bathrooms": {
+      "type": "integer"
+    },
+    "description": {
+      "type": "text"
+    },
+    "photo": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    }
+  }
+}

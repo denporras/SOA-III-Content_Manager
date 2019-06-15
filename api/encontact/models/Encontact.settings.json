@@ -1,0 +1,24 @@
+{
+  "connection": "default",
+  "collectionName": "encontancts",
+  "info": {
+    "name": "encontact",
+    "description": "Contact information for El Hotel in english"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "telephone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    }
+  }
+}

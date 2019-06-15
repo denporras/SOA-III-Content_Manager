@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/escontacts",
+      "handler": "Escontact.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/escontacts/count",
+      "handler": "Escontact.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/escontacts/:id",
+      "handler": "Escontact.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/escontacts",
+      "handler": "Escontact.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/escontacts/:id",
+      "handler": "Escontact.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/escontacts/:id",
+      "handler": "Escontact.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

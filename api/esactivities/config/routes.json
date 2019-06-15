@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/esactivities",
+      "handler": "Esactivities.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/esactivities/count",
+      "handler": "Esactivities.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/esactivities/:id",
+      "handler": "Esactivities.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/esactivities",
+      "handler": "Esactivities.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/esactivities/:id",
+      "handler": "Esactivities.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/esactivities/:id",
+      "handler": "Esactivities.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/encalendars",
+      "handler": "Encalendar.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/encalendars/count",
+      "handler": "Encalendar.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/encalendars/:id",
+      "handler": "Encalendar.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/encalendars",
+      "handler": "Encalendar.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/encalendars/:id",
+      "handler": "Encalendar.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/encalendars/:id",
+      "handler": "Encalendar.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

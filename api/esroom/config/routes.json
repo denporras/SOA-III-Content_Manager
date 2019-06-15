@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/esrooms",
+      "handler": "Esroom.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/esrooms/count",
+      "handler": "Esroom.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/esrooms/:id",
+      "handler": "Esroom.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/esrooms",
+      "handler": "Esroom.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/esrooms/:id",
+      "handler": "Esroom.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/esrooms/:id",
+      "handler": "Esroom.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

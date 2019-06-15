@@ -1,0 +1,32 @@
+{
+  "connection": "default",
+  "collectionName": "enservices",
+  "info": {
+    "name": "enservice",
+    "description": "Services in El Hotel in english"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "availability": {
+      "type": "string"
+    },
+    "photo": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

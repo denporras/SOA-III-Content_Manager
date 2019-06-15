@@ -1,0 +1,24 @@
+{
+  "connection": "default",
+  "collectionName": "escontacts",
+  "info": {
+    "name": "escontact",
+    "description": "Información de contanto para El Hotel"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "telephone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    }
+  }
+}

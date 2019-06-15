@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/encontacts",
+      "handler": "Encontact.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/encontacts/count",
+      "handler": "Encontact.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/encontacts/:id",
+      "handler": "Encontact.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/encontacts",
+      "handler": "Encontact.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/encontacts/:id",
+      "handler": "Encontact.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/encontacts/:id",
+      "handler": "Encontact.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
